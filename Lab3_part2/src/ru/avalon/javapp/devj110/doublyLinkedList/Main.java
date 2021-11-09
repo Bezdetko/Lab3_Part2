@@ -34,9 +34,9 @@ public class Main {
         list.remove(2);
         System.out.println(list.printFromStart());
         list.addArrayToHead(new int[] {123, 456, 789});
-        System.out.println(list.printFromStart());
+        System.out.println("Добавление всех значений заданного массива в начало списка: " + list.printFromStart());
         list.addArrayToTail(new int[] {987, 654, 321});
-        System.out.println(list.printFromStart());
+        System.out.println("Добавление всех значений заданного массива в конец списка: " + list.printFromStart());
         
         DoublyLinkedList list1 = new DoublyLinkedList();
         list1.addToHead(89);
