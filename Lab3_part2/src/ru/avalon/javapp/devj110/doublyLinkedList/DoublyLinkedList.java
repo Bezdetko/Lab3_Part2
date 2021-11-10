@@ -1,6 +1,6 @@
 package ru.avalon.javapp.devj110.doublyLinkedList;
 
-public class DoublyLinkedList implements Cloneable{
+public class DoublyLinkedList{
     private Element head;
     private Element tail;  
 
